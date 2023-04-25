@@ -1,4 +1,4 @@
-# CS-457 Programming Assignment 2: Basic Data Manipulation
+# CS-457 Programming Assignment 3: Table Joins
 # Build Environment
 Mac OS
 Visual Studio Code
@@ -21,9 +21,12 @@ My program now works in python with a tuple system to store items in a variable.
 Directories is created and saved by storing the name of the database. Name of any database created is saved in the program and can be accessed for future uses.
 After such, using a name directory, table is created by finding the name of the data and creating the table under the database filename. Data is parsed to pass in for use. And removing a table is done by using a simple remove function.
 
-Commands are turned into a list and parsed
+Commands are turned into a list and parsed.
 Table values are saved within index and place in a tuple similar to project 1 vector system. 
-Once a command is parsed, data is formatted and appeneded to the end of the table text file. Select allows you to find the table index if it exists by looking through the tuple. Altering table is done similarily to select as it grabs the values in the table index, but differs by changing the values within the table index. Deleting a tuble requires a loop to iterate each line. Modifying a tuble is done similarily, but instead replaces the data that is found. Querying specific date is done by searching through the list for the right fields and creates a temporary list that stores each tuble as a string element in the list.
+Once a command is parsed, data is formatted and appeneded to the end of the table text file. 
+Select allows you to find the table index if it exists by looking through the tuple. 
+Altering table is done similarily to select as it grabs the values in the table index, but differs by changing the values within the table index. Deleting a tuble requires a loop to iterate each line, once a specific data is found, the date is set to 'none'. 
+Modifying a tuble is done similarily to deletion, but instead replaces the data that is found. Querying specific date is done by searching through the list for the right fields and creates a temporary list that stores each tuble as a string element in the list.
 
 
 This program implemented design elements from PA 1 and PA 2. It included elements such like creating/deleting databases, as wellas to query and modify tables. It also allowed tables to be updated and queried effectively. The two joins were then implemented for this project in this revision as inner and left outer joins.

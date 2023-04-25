@@ -7,7 +7,7 @@ import os
 import db
 import table
 import query
-import joint
+import join
 
 currDB = None
 UserQuery = None
@@ -84,7 +84,7 @@ while (UserQuery != ".EXIT"):
   elif ("SELECT" in UserQuery.upper()):
     if ("SELECT *" in UserQuery.upper()):
       if ("." in UserQuery.upper()):
-          joint.joinTableOpener(UserQuery, currDB)
+          join.joinTableOpener(UserQuery, currDB)
       else:
         query.queryAll(UserQuery, currDB)
     else:
